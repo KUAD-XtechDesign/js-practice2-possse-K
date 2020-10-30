@@ -19,9 +19,9 @@ $("#button02").on("click",function(){
 
 $("#button03").on("click",function(){
     setInterval(function(){
-        hako = hako + 1;
+        hako++;
     $("#content").text(hako);
-    },1000)
+    },10)
 })
 
   
